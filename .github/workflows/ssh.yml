@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: ssh connct
 
 on:
   repository_dispatch:
@@ -7,7 +7,7 @@ on:
       ssh:
         description: 'SSH connection to Actions'
         required: false
-        default: 'false'
+        default: 'true'
 
 env:
 
