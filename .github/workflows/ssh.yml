@@ -9,11 +9,9 @@ on:
         required: false
         default: 'true'
 
-env:
-
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-lastest
 
     steps:
     - name: Checkout
