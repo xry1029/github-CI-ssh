@@ -10,8 +10,8 @@ on:
         default: 'true'
 
 jobs:
-  build:
-    runs-on: ubuntu-lastest
+  ssh:
+    runs-on: ubuntu-18.04
 
     steps:
     - name: Checkout
